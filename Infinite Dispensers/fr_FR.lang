@@ -1,0 +1,52 @@
+# _____        __ _       _ _         _____  _
+# |_   _|      / _(_)     (_) |       |  __ \(_)
+# | |  _ __ | |_ _ _ __  _| |_ ___  | |  | |_ ___ _ __   ___ _ __  ___  ___ _ __ ___
+# | | | '_ \|  _| | '_ \| | __/ _ \ | |  | | / __| '_ \ / _ \ '_ \/ __|/ _ \ '__/ __|
+# _| |_| | | | | | | | | | | ||  __/ | |__| | \__ \ |_) |  __/ | | \__ \  __/ |  \__ \
+# |_____|_| |_|_| |_|_| |_|_|\__\___| |_____/|_|___/ .__/ \___|_| |_|___/\___|_|  |___/
+# | |
+# |_|
+#
+# Created by Infinite Plugins
+
+name-format: '&eLevel %level% &fDispenser'
+# The format naming for the dispensers.
+# General Messages
+messages:
+  prefix: '&8[&bInfinite Dispensers&8]'
+  cannot-afford: '&cTu n''as pas assez d''argents!'
+  no-exp: '&cTu n''as pas assez de xp!'
+  upgrade-success: '&7Tu as améliorer ton dispenser au &dlevel %level%&7.'
+  upgrade-maxed: '&7Ton dispenser est au &dlevel %level%&7.'
+  give-success: '&7Tu as bien reçu un dispenser de &dlevel %level%'
+# The Gui Messages
+gui:
+  title: '&8Menu dispenser'
+  upgrade-xp: '&dAméliore avec ton xp'
+  upgrade-xp-lore: '&8➤ &7Coût: &d%cost% levels'
+  upgrade-eco: '&dAméliore avec tes coins'
+  upgrade-eco-lore: '&8➤ &7Coût: &d$%cost%'
+  maxed: '&7Ce dispenser est déjà au level max!'
+  level: '&7Dispenser Level &b%level%'
+  next-level: '&7Prochain Level &b%level%'
+  range: '&8➤ &7Radius: &b%range%'
+  auto-kill: '&8➤ &7Auto Kill: &b%value%'
+  auto-shear: '&8➤ &7Auto Shear: &b%value%'
+  auto-collect: '&8➤ &7Auto Collect: &b%value%'
+  stats-title: '&bStatistiques'
+  stats-entities-title: '&bEntities tué'
+  stats-entities: '&8➤ &7Entities tué: &b%entities%'
+  stats-items-title: '&bItems récolter'
+  stats-items: '&8➤ &7Items récolter: &b%items%'
+  sync-name: '&bAuto synchronisation'
+  sync-lore: '|&bClique-Gauche &7Pour relier un coffre.|&bClique-Droit &7Pour dérelier.|&7Relier status: &b%value%'
+# The Sync Messages
+link:
+  link: '&7Cliquer sur un coffre pour relier ce dispenser.'
+  success: '&7Vous avez relier avec succès ce coffre.'
+  unlink: '&7Vous avec dérelier ce dispenser de tout les coffres reliers.'
+  already: '&7Ce dispenser est dêja relier.'
+  timeout: '&7Temps écouler pour link un coffre.'
+  canceled: '&7Relier annulé.'
+  out-of-range: '&7Ce block n''est pas dans le radius du dispensers.'
+  did-not-place: '&7Vous devez avoir placé ce dispenser pour y relier des trucs.'
