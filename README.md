@@ -7,5 +7,4 @@ In this repository we store all our translations and where the community can add
 3. Create a Pull Request to implement your changes.
 
 #### Lang Files which need an update
-- Infinite Vouchers: de_DE.lang (German)
 - Infinite Vouchers: it_IT.lang (Italian)
