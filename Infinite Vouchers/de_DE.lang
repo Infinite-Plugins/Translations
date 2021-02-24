@@ -11,7 +11,7 @@
 messages:
   prefix: '&8[&eInfiniteVouchers&8]'
   required-amount: '&7Um diesen Gutschein einzulösen, musst du mehr von diesen sammeln.'
-  no-permission: '&7You do not have permission to use this voucher.'
+  no-permission: '&7Du hast nicht die benötigten Rechte um diesen Gutschein einzulösen.'
 
 # Command Messages
 
