@@ -1,0 +1,31 @@
+# _____       __ _       _ _         _   _                  _
+#|_   _|     / _(_)     (_) |       | | | |                | |
+#  | | _ __ | |_ _ _ __  _| |_ ___  | | | | ___  _   _  ___| |__   ___ _ __ ___
+#  | || '_ \|  _| | '_ \| | __/ _ \ | | | |/ _ \| | | |/ __| '_ \ / _ \ '__/ __|
+# _| || | | | | | | | | | | ||  __/ \ \_/ / (_) | |_| | (__| | | |  __/ |  \__ \
+# \___/_| |_|_| |_|_| |_|_|\__\___|  \___/ \___/ \__,_|\___|_| |_|\___|_|  |___/
+#                         Created by Infinite Plugins
+
+# General Messages
+
+messages:
+  prefix: '&8[&eInfiniteVouchers&8]'
+  required-amount: '&7Je hebt niet genoeg vouchers om deze allemaal te gebruiken.'
+  no-permission: '&7Je hebt geen permissie om deze voucher te gebruiken'
+
+# Command Messages
+
+command:
+  no-player: '&7Deze speler bestaat niet of is niet online'
+  no-voucher: '&cDeze voucher bestaat niet'
+  not-exist: '&7Het commando dat je probeerde uit te voeren bestaat niet.'
+  no-number: '&7Dit is geen nummer.'
+  reload: '&7Alle configs zijn herladen'
+  send: '&7Je hebt &e%player% &7de voucher &e%voucher% &7(&ex%amount%&7) gegeven.'
+  receive: '&7Je hebt de voucher &e%voucher% &7(&ex%amount%&7) gekregen.'
+  list: '&7Beschikbare vouchers: &e%list%'
+
+gui:
+  confirm-title: '&8Weet je het zeker?'
+  confirm-item: '&aBevestig'
+  cancel-item: '&cAnnuleer'

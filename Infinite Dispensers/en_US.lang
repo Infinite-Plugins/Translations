@@ -1,0 +1,54 @@
+#  _____        __ _       _ _         _____  _
+# |_   _|      / _(_)     (_) |       |  __ \(_)
+#   | |  _ __ | |_ _ _ __  _| |_ ___  | |  | |_ ___ _ __   ___ _ __  ___  ___ _ __ ___
+#   | | | '_ \|  _| | '_ \| | __/ _ \ | |  | | / __| '_ \ / _ \ '_ \/ __|/ _ \ '__/ __|
+#  _| |_| | | | | | | | | | | ||  __/ | |__| | \__ \ |_) |  __/ | | \__ \  __/ |  \__ \
+# |_____|_| |_|_| |_|_| |_|_|\__\___| |_____/|_|___/ .__/ \___|_| |_|___/\___|_|  |___/
+#                                                  | |
+#                                                  |_|
+#
+#                         Created by Infinite Plugins
+
+# The format naming for the dispensers.
+name-format: '&eLevel %level% &fDispenser'
+
+# General Messages
+messages:
+  prefix: '&8[&bInfinite Dispensers&8]'
+  cannot-afford: '&7You do not have enough money for this upgrade!'
+  no-exp: '&7You do not have enough XP for this upgrade!'
+  upgrade-success: '&7You upgraded this dispenser to &blevel %level%&7.'
+  upgrade-maxed: '&7You maxed out this dispenser at &blevel %level%&7.'
+  give-success: '&7You have been given a &blevel %level% &7dispenser!'
+
+# The Gui Messages
+gui:
+  title: '&8Dispenser Overview'
+  upgrade-xp: '&bUpgrade with XP'
+  upgrade-xp-lore: '&8➤ &7Cost: &b%cost% levels'
+  upgrade-eco: '&bUpgrade with Eco'
+  upgrade-eco-lore: '&8➤ &7Cost: &b$%cost%'
+  maxed: '&7This dispenser is already maxed out!'
+  level: '&7Dispenser Level &b%level%'
+  next-level: '&7Next Level &b%level%'
+  range: '&8➤ &7Range: &b%range%'
+  auto-kill: '&8➤ &7Auto Kill: &b%value%'
+  auto-shear: '&8➤ &7Auto Shear: &b%value%'
+  auto-collect: '&8➤ &7Auto Collect: &b%value%'
+  stats-title: '&bStatistics'
+  stats-entities-title: '&bEntities Killed'
+  stats-entities: '&8➤ &7Entities Killed: &b%entities%'
+  stats-items-title: '&bItems Collected'
+  stats-items: '&8➤ &7Items Collected: &b%items%'
+  sync-name: '&bAuto Collect'
+  sync-lore: '|&bLeft-Click &7to link to a chest|&bRight-Click &7to unlink|&7Link Status: &b%value%'
+# The Sync Messages
+link:
+  link: '&7Click a on a chest to link this dispenser.'
+  success: '&7Successfully linked to a chest.'
+  unlink: '&7You unlinked this dispenser from its chest.'
+  already: '&7This dispenser is already linked.'
+  timeout: '&7Linking timed out.'
+  canceled: '&7Linking canceled.'
+  out-of-range: '&7This block is out of your dispensers range.'
+  did-not-place: '&7You need to have placed this dispenser to link things to it.'
