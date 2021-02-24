@@ -1,0 +1,39 @@
+# _____       __ _       _ _         _____      _ _ ______ _            _
+# |_   _|     / _(_)     (_) |       /  ___|    | | || ___ \ |          | |
+# | | _ __ | |_ _ _ __  _| |_ ___  \ `--.  ___| | || |_/ / | ___   ___| | _____
+# | || '_ \|  _| | '_ \| | __/ _ \  `--. \/ _ \ | || ___ \ |/ _ \ / __| |/ / __|
+# _| || | | | | | | | | | | ||  __/ /\__/ /  __/ | || |_/ / | (_) | (__|   <\__ \
+# \___/_| |_|_| |_|_| |_|_|\__\___| \____/ \___|_|_|\____/|_|\___/ \___|_|\_\___/
+#
+
+# The format naming for the dispensers.
+name-format: '&eLevel %level% &fSellBlock'
+
+# General Messages
+messages:
+  prefix: '&8[&dInfinite SellBlocks&8]'
+  cannot-afford: '&cTu n''as pas assez d''argents!'
+  no-exp: '&cTu n''as pas assez de xp!'
+  upgrade-success: '&7Tu as améliorer ton SellBlock au &dlevel %level%&7.'
+  upgrade-maxed: '&7Ton SellBlock est au &dlevel %level%&7.'
+  give-success: '&7Tu as bien reçu un SellBlock de &dlevel %level%'
+
+# The Gui Messages
+gui:
+  title: '&8SellBlock'
+  upgrade-xp: '&dAméliore avec ton xp'
+  upgrade-xp-lore: '&8➤ &7Coût: &d%cost% levels'
+  upgrade-eco: '&dAméliore avec tes coins'
+  upgrade-eco-lore: '&8➤ &7Coût: &d$%cost%'
+  clear-worthless: '&dIgnore les items non coûteux'
+  clear-worthless-lore: '&8➤ &7Status: &d%value%'
+  maxed: '&7Ce SellBlock est déjà au level max!'
+  level: '&7SellBlock level &d%level%'
+  next-level: '&7Prochain level &d%level%'
+  range: '&8➤ &7Radius: &d%range%'
+  collect-xp: '&8➤ &7Récolte XP: &d%value%'
+  stats-title: '&dStatistiques'
+  stats-profit-title: '&dProfit totale'
+  stats-profit: '&8➤ &7Profit: &d$%profit%'
+  stats-items-sold-title: '&dItems vendu'
+  stats-items-sold: '&8➤ &7Items vendu: &d%items_sold%'
