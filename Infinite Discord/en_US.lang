@@ -7,13 +7,14 @@
 #
 
 # All formats
+# All formats
 formats:
-  join-format: "%username% joined the server!"
-  quit-format: "%username% left the server!"
-  mc-to-dc-format: "%username%: %message%"
-  dc-to-mc-format: "&8[&dDiscord&8] &r%username%: %message%"
+  join: "%username% joined the server!"
+  quit: "%username% left the server!"
+  mc-dc: "%username%: %message%"
+  dc-mc: "&8[&dDiscord&8] &r%username%: %message%"
 
 # All messages which get send to Discord
 discord:
-  server-on-message: "**The Server is now __ONLINE__**"
-  server-off-message: "**The Server is now __OFFLINE__**"
+  server-on: "**The Server is now __ONLINE__**"
+  server-off: "**The Server is now __OFFLINE__**"
