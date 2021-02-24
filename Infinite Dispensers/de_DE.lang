@@ -1,0 +1,56 @@
+#  _____        __ _       _ _         _____  _
+# |_   _|      / _(_)     (_) |       |  __ \(_)
+#   | |  _ __ | |_ _ _ __  _| |_ ___  | |  | |_ ___ _ __   ___ _ __  ___  ___ _ __ ___
+#   | | | '_ \|  _| | '_ \| | __/ _ \ | |  | | / __| '_ \ / _ \ '_ \/ __|/ _ \ '__/ __|
+#  _| |_| | | | | | | | | | | ||  __/ | |__| | \__ \ |_) |  __/ | | \__ \  __/ |  \__ \
+# |_____|_| |_|_| |_|_| |_|_|\__\___| |_____/|_|___/ .__/ \___|_| |_|___/\___|_|  |___/
+#                                                  | |
+#                                                  |_|
+#
+#                         Created by Infinite Plugins
+#
+# Translation by Minecoll_YT
+
+# The format naming for the dispensers.
+name-format: '&eLevel %level% &fWerfer'
+
+# General Messages
+messages:
+  prefix: '&8[&dInfinite SellBlocks&8]'
+  cannot-afford: '&cFür diese Verbesserung hast du nicht genügend Geld!'
+  no-exp: '&cFür diese Verbesserung hast du nicht genügend XP!'
+  upgrade-success: '&7Du hast diesen Werfer zu &dLevel %level% &7verbessert.'
+  upgrade-maxed: '&7Du hast diesen Werfer vollständig auf &dLevel %level% &7verbessert.'
+  give-success: '&7Du hast einen Werfer &dLevel %level% &7erhalten!'
+
+# The Gui Messages
+gui:
+  title: '&8SellBlock Übersicht'
+  upgrade-xp: '&dVerbessern mit XP'
+  upgrade-xp-lore: '&8➤ &7Kosten: &d%cost% XP'
+  upgrade-eco: '&dVerbessern mit Geld'
+  upgrade-eco-lore: '&8➤ &7Kosten: &d$%cost%'
+  maxed: '&7Dieser Werfer ist bereits auf dem höchsten Level!'
+  level: '&7Werfer Level &d%level%'
+  next-level: '&7Nächtes Level &d%level%'
+  range: '&8➤ &7Reichweite: &d%range%'
+  auto-kill: '&8➤ &7Automatisches töten: &b%value%'
+  auto-shear: '&8➤ &7Automatisches scheren: &b%value%'
+  auto-collect: '&8➤ &7Automatisches einsammeln: &b%value%'
+  stats-title: '&bStatistiken'
+  stats-entities-title: '&bEntities getötet'
+  stats-entities: '&8➤ &7Entities getötet: &b%entities%'
+  stats-items-title: '&bGegenstände gesammelt'
+  stats-items: '&8➤ &7Gegenstände gesammelt: &b%items%'
+  sync-name: '&bAutomatisches einsammeln'
+  sync-lore: '|&bLinksklick &7um es mit einer Kiste zu verknüpfen|&bRechtsklick &7um eine Verknüpfung aufzulösen|&7Verknüpfungsstatus: &b%value%'
+# The Sync Messages
+link:
+  link: '&7Klicke auf eine Kiste um diesen Werfer damit zu verknüpfen.'
+  success: '&7Die Kiste wurde erfolgreich mit diesem Werfer verknüpfen.'
+  unlink: '&7Du hast die Verknüpfung zwischen diesem Werfer und seiner Kiste getrennt.'
+  already: '&7Dieser Werfer ist bereits mit etwas verknüpft.'
+  timeout: '&7Die Zeit für den Verknüpfungsprozess ist abgelaufen.'
+  canceled: '&7Verknüpfungsprozess abgebrochen.'
+  out-of-range: '&7Dieser Block befindet sich nicht in der Reichweite des Werfers.'
+  did-not-place: '&7Du musst den Werfer ist platzieren.'
